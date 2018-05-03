@@ -35,14 +35,14 @@ a.btn {
     transition: background-color .5s;
 }
 a.btn:hover {
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.4);
 }
 
 /* Header */
 header {
 	height: 240px;
 	width: 100%;
-	background: #000 url(../images/banner_1200.png) no-repeat center bottom;
+	background: #000 url(../images/other/banner_2400.jpg) no-repeat center bottom;
 	margin: 0;
 	position: absolute;
 }
@@ -58,19 +58,19 @@ header div.hero { width: 42%; position: absolute; top: 130px; left: 55%; }
 header div.hero h1 { line-height: 1em; margin: 0 0 30px 0; color: #fff; }
 
 /* Navigation */
-nav { background-color: rgba(0,0,0,.65); position: absolute; top: 0px; left: 0px; padding: 50px 0px 0px 0px; width: 100%; }
+nav { background-color: rgba(0,0,0,.35); position: fixed; top: 0px; left: 0px; padding: 50px 0px 0px 0px; width: 100%; }
 nav a:visited { color: #fff; }
 
-nav ul { list-style: none; margin: 0px; padding: 0px; }
+nav ul { list-style: none; margin: 0px; padding: 0px; border-radius: 10px; }
 nav ul::after { content: ""; display: block; clear: both; }
 
-nav ul li:hover { background-color: #2b0306; border-radius: 3px;}
+nav ul li:hover { background-color: rgba(0,0,0,.2); border-radius: 10px;}
 nav ul li:hover > ul { display: block; }
 
-nav ul li a { display: inline-block; color: #fff; padding: 10px 20px; text-decoration: none; width: 125px; position: relative; }
-nav ul li a:hover { background-color: #79131a; }
+nav ul li a { display: inline-block; color: #fff; padding: 10px 10px; text-decoration: none; width: 125px; position: relative; }
+nav ul li a:hover { background-color: rgba(0,0,0,.2); border-radius: 10px; }
 
-nav ul ul { display: none; position: absolute; top: 100%; background-color: #2b0306; }
+nav ul ul { display: none; position: absolute; top: 100%; background-color: rgba(0,0,0,.2); }
 nav ul ul li { position: relative; }
 nav ul ul ul { left: 100%; top: 0; }
 
@@ -79,8 +79,8 @@ footer ul, footer li{
 	display: inline;
 }
 footer{
-	top-border:3px solid slategray;
-	position: absolute;
+	top-border:10px solid slategray;
+	position: relative;
 	text-align: center;
 	padding-top: 5px;
 	font-size:0.875em;
@@ -95,7 +95,7 @@ footer a:hover{
 /* top level */
 nav > ul { padding-left: 200px; }
 nav > ul > li { float: left; }
-nav > ul > li > a { padding: 10px 20px 15px 20px; width: auto; }
+nav > ul > li > a { padding: 10px; width: auto; }
 
 nav a[aria-haspopup="true"]::after {
 	content:'';
@@ -128,7 +128,22 @@ nav > ul > li > a[aria-haspopup="true"]::after {
 	top: auto;
 }
 
-
+/* Images */
+img{
+	width: 200px;
+	height: 150px;
+	border: 3px solid slategray;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.paragraph{
+	width: 30%;
+}
+table{
+	position: absolute;
+}
 
 /* Media Queries */
 

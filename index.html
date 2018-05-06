@@ -4,12 +4,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>FX King's</title>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css">
+		<!--link rel="stylesheet" type="text/css" media="screen" href="css/screen.css">
 		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-		<script type="text/javascript" src="js/design.js"></script>
+		<script type="text/javascript" src="js/design.js"></script-->
+		<link rel="stylesheet" type="text/css" href="css/newcss.css">
+
 	</head>
 	<body>
-		<div id="page">
+		<div id="page" class="wrapper">
 			<header>
 				<a class="logo" title="fxkings" href="#"><span>Forex King's</span></a>
 				<div class="hero">
@@ -60,7 +62,7 @@
 
 		</div>
 		<div id="container"></div>
-        <div class="middle-stuff">
+        <div id="top">
 			<p>
 				Nigga smilin' in your face, really want you in a ditch
 				Half a ticket on my neck, quarter ticket on my wrist
@@ -70,11 +72,11 @@
 				They say the ones that quiet be the ones that rich as bricks
 				Wanna walk in my shoes, gotta take that risk (risk)
 			</p>
-			<img src="images/other/luxury_terrace-wallpaper-2560x1440.jpg">
-			<table>
+			<!--img width="1080px" src="images/wallpapers/lambo3.jpg"-->
+			<table id="middle">
 				<tr>
 					<td>
-						<img src="images/other/desk-wallpaper-2880x1620.jpg">
+						<img src="images/other/laptop-wallpaper-1920x1080.jpg">
 					</td>
 					<td class="paragraph">
 						<b>Some bold text right here</b>
@@ -89,7 +91,7 @@
 				</tr>
 				<tr>
 					<td>
-						<img src="images/other/mclaren_570s_spider_valentine_s_day_2018-wallpaper-3840x2160.jpg">
+						<img src="images/other/king_armchair-wallpaper-2560x1440.jpg">
 					</td>
 					<td class="paragraph">
 						<b>Some bold text right here</b>
@@ -106,12 +108,12 @@
         </div>
         <table>
             <tr id="bottom">
-                <td>
-                    <img src="images/forex/image.jpg">
+                <td class="smallest">
+                    <img width="300px" height="240" src="images/forex/fundamentals/currency-pairs.png">
                     <br>
-                    <img src="images/forex/images.jpg">
+                    <img width="300px" height="240" src="images/forex/fundamentals/fundamental-analysis.jpg">
                     <br>
-                    <img src="images/forex/inverted-head-shoulders-pattern.gif">
+                    <img width="300px" height="240" src="images/forex/fundamentals/funimg1.jpg">
                 </td>
                 <td class="paragraph">
                     <b>Some text about the first 3 images here</b>
@@ -123,12 +125,12 @@
                     They say the ones that quiet be the ones that rich as bricks
                     Wanna walk in my shoes, gotta take that risk (risk)
                 </td>
-                <td>
-                    <img src="images/forex/fundamental-analysis_forex.gif">
+                <td class="smallest">
+                    <img width="300px" height="240" src="images/forex/technicals/chart-patterns.png">
                     <br>
-                    <img src="images/forex/currency_pairs_in_forex_trading.png">
+                    <img width="300px" height="240" src="images/forex/charts/higher-highs-lows.gif">
                     <br>
-                    <img src="images/forex/20091116-forex%20chart.jpg">
+                    <img width="300px" height="240" src="images/forex/technicals/candlestick-chart.gif">
                 </td>
                 <td class="paragraph">
                     <b>Some text about the second 3 images here</b>
@@ -144,7 +146,11 @@
         </table>
 
 		<footer>
-            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <p>
+				The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+				Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+				their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+			</p>
 			&copy;Copyright
 			<ul>
 				<li><a href="#">Terms</a></li>
@@ -152,8 +158,8 @@
 			</ul>
 		</footer>
 	</body>
-	<script src="js/three.js"></script>
-
-	<script src="js/Detector.js"></script>
-	<script src="js/libs/stats.min.js"></script>
+	<script src="js/imports/three.js"></script>
+	<script src="js/imports/Detector.js"></script>
+	<script src="js/imports/stats.min.js"></script>
+	<!--script src="js/local/threedimentions.js"></script-->
 </html>

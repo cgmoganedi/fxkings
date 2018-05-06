@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
+
+body {
+    background-size: auto ;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+#middle img{
+    width: 600px;
+    border: 3px solid slategray;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bottom img{
+    width: 150px;
+    height: 100px;
+    border: 3px solid slategray;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
